@@ -1,10 +1,10 @@
 def print_pet(times : int, cat: bool):
 
     cat = '''
-        🐈            🐈
+        
         🐈               🐈
         🐈             🐈🐈🐈  🐈
-        🐈             🐈🐈🐈🐈
+                     🐈🐈🐈🐈
         🐈🐈🐈🐈🐈🐈🐈🐈🐈
         🐈🐈🐈🐈🐈🐈🐈🐈🐈
         🐈🐈🐈        🐈🐈
@@ -13,6 +13,6 @@ def print_pet(times : int, cat: bool):
             🐈        🐈
     '''
 
-    print(cat)
+    println(cat)
 
-print_pet(2, True)
+print_pet(3, True)
