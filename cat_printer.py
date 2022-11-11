@@ -6,6 +6,7 @@ def print_pet(times : int, cat: bool):
         🐈             🐈🐈🐈  🐈
         🐈             🐈🐈🐈🐈
         🐈🐈🐈🐈🐈🐈🐈🐈🐈
+        🐈🐈🐈   CAT  🐈🐈
         🐈🐈🐈🐈🐈🐈🐈🐈🐈
         🐈🐈🐈        🐈🐈
         🐈🐈       🐈🐈
@@ -14,5 +15,6 @@ def print_pet(times : int, cat: bool):
     '''
 
     print(cat)
+    print('I love cats')
 
 print_pet(2, True)
